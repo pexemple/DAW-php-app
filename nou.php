@@ -1,3 +1,3 @@
 <?php
-echo "Hola, món!";
+echo "Hola, Git!";
 ?>
