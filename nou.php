@@ -1,8 +1,16 @@
 <?php
 /**
- * Nou.php - Ejemplo de script PHP
+ * Calcular el total amb IVA.
  *
- * Aquest script mostra un exemple bàsic de documentació amb PhpDocumentor.
+ * Aquesta funció calcula el preu total afegint l'IVA al preu donat.
  *
- * @package DAW-php-app
+ * @param float $preu Preu sense IVA.
+ * @param float $iva Percentatge de l'IVA (per defecte 21%).
+ * @return float Total amb IVA inclòs.
  */
+function calcularTotalAmbIVA($preu, $iva = 21) {
+    return $preu + ($preu * ($iva / 100));
+}
+
+// Exemple d'ús
+echo "El total és: " . calcularTotalAmbIVA(100) . " €";

@@ -71,6 +71,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Modificar.html#method_mostrarFormulari"
         },                {
+            "fqsen": "\\calcularTotalAmbIVA\u0028\u0029",
+            "name": "calcularTotalAmbIVA",
+            "summary": "Calcular\u0020el\u0020total\u0020amb\u0020IVA.",
+            "url": "namespaces/default.html#function_calcularTotalAmbIVA"
+        },                {
             "fqsen": "\\Principal",
             "name": "Principal",
             "summary": "",
